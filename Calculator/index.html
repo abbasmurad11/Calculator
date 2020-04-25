@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./main.js"></script>
+	<script src="https://kit.fontawesome.com/3d8748b2f2.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="images/icon.png" />
+
+
+</head>
+<body>
+
+	<div class="lc">
+			<span>Calculating together will be easy for you</span>
+			<!-- <span>CALCULATING TOGETHER WILL BE EASY FOT YOU</span> -->
+		</div>
+
+	<div class="top">
+		<form name="form">
+			<input type="" class="i1 form-control" name="textw">
+		</form>
+		<div class="hesablama">
+			<div class="siral">
+				<div class="s1" onclick="clean();">C</div>
+				<div class="s1" onclick="back();"><--</div>
+				<div class="s1" onclick="per();">%</div>
+				<div class="s1" onclick="insert('/');">÷</div>
+			</div>
+			<div class="siral siral1">
+				<div class="s1" onclick="insert(7);">7</div>
+				<div class="s1" onclick="insert(8);">8</div>
+				<div class="s1" onclick="insert(9);">9</div>
+				<div class="s1" onclick="insert('*');">x</div>
+			</div>
+			<div class="siral siral1">
+				<div class="s1" onclick="insert(4);">4</div>
+				<div class="s1" onclick="insert(5);">5</div>
+				<div class="s1" onclick="insert(6);">6</div>
+				<div class="s1" onclick="insert('-');">-</div>
+			</div>
+			<div class="siral siral1">
+				<div class="s1" onclick="insert(1);">1</div>
+				<div class="s1" onclick="insert(2);">2</div>
+				<div class="s1" onclick="insert(3);">3</div>
+				<div class="s1" onclick="insert('+');">+</div>
+			</div>
+			<div class="siral siral1">
+				<div class="s1"></div>
+				<div class="s1" onclick="insert(0);">0</div>
+				<div class="s1" onclick="insert('.');">.</div>
+				<div class="s1 s11" onclick="equal();">=</div>
+			</div>
+		</div>
+	</div>
+	<div class="son">
+		<span>Created by <a style="color: black" target="_blank" href="https://www.instagram.com/abbasmuradzade/">Abbas Muradzade</a></span>
+	</div>
+</body>
+</html>
